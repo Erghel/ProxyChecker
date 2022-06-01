@@ -42,7 +42,7 @@ $c = array();
 for ($thread_no = 0; $thread_no<count ($proxies); $thread_no++)
 {
     $c [$thread_no] = curl_init ();
-    curl_setopt ($c [$thread_no], CURLOPT_URL, "https://google.com");
+    curl_setopt ($c [$thread_no], CURLOPT_URL, "https://2ip.ru/");
     curl_setopt ($c [$thread_no], CURLOPT_HEADER, 0);
     curl_setopt ($c [$thread_no], CURLOPT_RETURNTRANSFER, 1);
     curl_setopt ($c [$thread_no], CURLOPT_CONNECTTIMEOUT, 5);
